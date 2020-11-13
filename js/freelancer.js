@@ -77,4 +77,11 @@
     });
   });
 
+  // open popup with anchor
+  var hash = $(location).attr('hash');
+  if (hash != "") {
+    $(function() {
+      $.magnificPopup.open({items: {src: hash},type: 'inline'}, 0);
+    });
+  }
 })(jQuery); // End of use strict
