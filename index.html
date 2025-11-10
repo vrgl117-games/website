@@ -82,6 +82,9 @@
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Games</a>
           </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#misc">Misc</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -132,7 +135,35 @@
             <img class="img-fluid" src="img/portfolio/sblobber64_title.png" alt="">
           </a>
         </div>
-        <div class="col-md-6 col-lg-6">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Misc Section -->
+
+  <section class="portfolio" id="misc">
+    <div class="container">
+      <h2 class="text-center text-uppercase text-secondary mb-0">Misc</h2>
+
+      <hr class="star-dark mb-5">
+
+      <div class="row justify-content-center mb-4">
+        <div class="col-md-8 col-lg-6">
+          <a class="portfolio-item d-block mx-auto" href="#pgre2019">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                <i class="fas fa-expand-arrows-alt fa-3x"></i>
+              </div>
+            </div>
+
+            <img class="img-fluid" src="img/pgre2019.png" alt="PGRE 2019 presentation">
+          </a>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-6 mb-4">
           <a class="portfolio-item d-block mx-auto" href="#2048">
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -143,7 +174,7 @@
             <img class="img-fluid" src="img/portfolio/2048_game.png" alt="">
           </a>
         </div>
-        <div class="col-md-6 col-lg-6">
+        <div class="col-md-6 col-lg-6 mb-4">
           <a class="portfolio-item d-block mx-auto" href="#flood">
             <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
               <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -152,6 +183,20 @@
             </div>
 
             <img class="img-fluid" src="img/portfolio/flood_game.png" alt="">
+          </a>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-6 mb-4">
+          <a class="portfolio-item d-block mx-auto" href="#memory64">
+            <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+              <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                <i class="fas fa-expand-arrows-alt fa-3x"></i>
+              </div>
+            </div>
+
+            <img class="img-fluid" src="img/portfolio/memory_title.png" alt="">
           </a>
         </div>
       </div>
@@ -192,12 +237,6 @@
               <a class="btn btn-outline-light btn-social text-center rounded-circle"
                 href="https://vrgl117-games.itch.io/">
                 <i class="fab fa-fw fa-itch-io"></i>
-              </a>
-            </li>
-
-            <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://twitter.com/vrgl117">
-                <i class="fab fa-fw fa-twitter"></i>
               </a>
             </li>
 
@@ -249,6 +288,56 @@
     </div>
   </div>
 
+  <!-- Portfolio Modal PGRE2019 -->
+
+  <div class="portfolio-modal mfp-hide" id="pgre2019">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2 class="text-secondary text-uppercase mb-0">PGRE 2019 Presentation</h2>
+
+            <hr class="star-dark mb-5">
+
+            <div class="embed-responsive embed-responsive-16by9 mb-4">
+              <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQZsHbQvWCu1g1udHgMRux4VFCiAV-IrMEKo9Rz3eUKjrNf_yfjcR4DseOafL01z1x_i8rEHd7sQt2q/pubembed?start=false&amp;loop=false&amp;delayms=3000"
+                frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true"
+                webkitallowfullscreen="true" title="PGRE 2019 presentation"></iframe>
+            </div>
+
+            <div class="row justify-content-center">
+              <div class="col-md-5 mb-3">
+                <a class="btn btn-primary btn-lg rounded-pill w-100" href="https://github.com/vrgl117-games/minesweeper-N64"
+                  target="_blank" rel="noopener">
+                  <i class="fab fa-github mr-2"></i>
+                  View on GitHub
+                </a>
+              </div>
+
+              <div class="col-md-5 mb-3">
+                <a class="btn btn-primary btn-lg rounded-pill w-100"
+                  href="https://github.com/vrgl117-games/minesweeper-N64/raw/refs/heads/main/minesweeper-64.z64"
+                  target="_blank" rel="noopener">
+                  <i class="fas fa-download mr-2"></i>
+                  Download ROM
+                </a>
+              </div>
+            </div>
+
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <i class="fa fa-close"></i>
+              Close
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Portfolio Modal Fission -->
 
   <div class="portfolio-modal mfp-hide" id="fissionfailure64">
@@ -287,10 +376,22 @@
               It supports one player and the Rumble Pak.
             </p>
 
-            <a class="btn btn-primary btn-lg rounded-pill" href="https://vrgl117-games.itch.io/fissionfailure64">
-              <i class="fas fa-download mr-2"></i>
-              Download on itch.io
-            </a>
+            <div class="row justify-content-center">
+              <div class="col-md-5 mb-3">
+                <a class="btn btn-primary btn-lg rounded-pill w-100" href="https://vrgl117-games.itch.io/fissionfailure64">
+                  <i class="fas fa-download mr-2"></i>
+                  Download on itch.io
+                </a>
+              </div>
+
+              <div class="col-md-5 mb-3">
+                <a class="btn btn-primary btn-lg rounded-pill w-100"
+                  href="https://n64squid.com/homebrew/roms/fission-failure-64/" target="_blank" rel="noopener">
+                  <i class="fas fa-external-link-alt mr-2"></i>
+                  Read on n64squid.com
+                </a>
+              </div>
+            </div>
 
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
@@ -339,10 +440,22 @@
               It supports one player and the Rumble Pak.
             </p>
 
-            <a class="btn btn-primary btn-lg rounded-pill" href="https://vrgl117-games.itch.io/sblobber64">
-              <i class="fas fa-download mr-2"></i>
-              Download on itch.io
-            </a>
+            <div class="row justify-content-center">
+              <div class="col-md-5 mb-3">
+                <a class="btn btn-primary btn-lg rounded-pill w-100" href="https://vrgl117-games.itch.io/sblobber64">
+                  <i class="fas fa-download mr-2"></i>
+                  Download on itch.io
+                </a>
+              </div>
+
+              <div class="col-md-5 mb-3">
+                <a class="btn btn-primary btn-lg rounded-pill w-100"
+                  href="https://n64squid.com/homebrew/roms/sblobber-64/" target="_blank" rel="noopener">
+                  <i class="fas fa-external-link-alt mr-2"></i>
+                  Read on n64squid.com
+                </a>
+              </div>
+            </div>
 
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
@@ -394,10 +507,22 @@
               It supports the Rumble Pak and is available in English, Spanish and French.
             </p>
 
-            <a class="btn btn-primary btn-lg rounded-pill" href="https://vrgl117-games.itch.io/2048-64">
-              <i class="fas fa-download mr-2"></i>
-              Download on itch.io
-            </a>
+            <div class="row justify-content-center">
+              <div class="col-md-5 mb-3">
+                <a class="btn btn-primary btn-lg rounded-pill w-100" href="https://vrgl117-games.itch.io/2048-64">
+                  <i class="fas fa-download mr-2"></i>
+                  Download on itch.io
+                </a>
+              </div>
+
+              <div class="col-md-5 mb-3">
+                <a class="btn btn-primary btn-lg rounded-pill w-100" href="https://n64squid.com/homebrew/roms/2048-64/"
+                  target="_blank" rel="noopener">
+                  <i class="fas fa-external-link-alt mr-2"></i>
+                  Read on n64squid.com
+                </a>
+              </div>
+            </div>
 
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
               <i class="fa fa-close"></i>
@@ -445,9 +570,62 @@
               It supports the Rumble Pak and is available in English, Spanish and French.
             </p>
 
-            <a class="btn btn-primary btn-lg rounded-pill" href="https://vrgl117-games.itch.io/flood-64">
+            <div class="row justify-content-center">
+              <div class="col-md-5 mb-3">
+                <a class="btn btn-primary btn-lg rounded-pill w-100" href="https://vrgl117-games.itch.io/flood64">
+                  <i class="fas fa-download mr-2"></i>
+                  Download on itch.io
+                </a>
+              </div>
+
+              <div class="col-md-5 mb-3">
+                <a class="btn btn-primary btn-lg rounded-pill w-100" href="https://n64squid.com/homebrew/roms/flood-64/"
+                  target="_blank" rel="noopener">
+                  <i class="fas fa-external-link-alt mr-2"></i>
+                  Read on n64squid.com
+                </a>
+              </div>
+            </div>
+
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <i class="fa fa-close"></i>
+              Close
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal Memory -->
+
+  <div class="portfolio-modal mfp-hide" id="memory64">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-secondary text-uppercase mb-0">Memory 64</h2>
+
+            <hr class="star-dark mb-5">
+
+            <img width="340" class="img-fluid mb-5" src="img/portfolio/memory_title.png" alt="">
+
+            <p class="mb-5">
+              Memory game similar to <a href="https://en.wikipedia.org/wiki/Simon_(game)" target="_blank"
+                rel="noopener">Simon</a> for N64, design of the game is based on the N64 controller layout.
+
+              <br>
+              Supports one player and the Rumble Pak.
+            </p>
+
+            <a class="btn btn-primary btn-lg rounded-pill"
+              href="https://github.com/vrgl117-games/Memory64-N64/raw/refs/heads/master/Memory64.z64">
               <i class="fas fa-download mr-2"></i>
-              Download on itch.io
+              Download ROM
             </a>
 
             <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
